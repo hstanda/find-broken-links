@@ -48,5 +48,5 @@ def main(url):
 
 if __name__ == "__main__":
     # Example usage: Pass the website URL as a parameter
-    website_url = "https://example.com/"
+    website_url = input("Enter the website URL to check for broken links: ")
     main(website_url)
